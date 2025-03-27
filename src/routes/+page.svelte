@@ -1,5 +1,6 @@
 <script>
     import profileImage from "$lib/assets/profile_image.png";
+    import {Button, Input} from "flowbite-svelte";
 
     // Mange SVG lines
     const nbLinesSvg = 5;
@@ -27,36 +28,49 @@
 <!--            />-->
 <!--        {/each}-->
 <!--    </svg>-->
-    <section id="home-section" class="scroll-section">
-        <div class="h-40"></div>
+    <section id="home-section" class="flex flex-col h-screen justify-center items-center gap-3">
 
         <div class="text-center m-10">
             <h1 class="text-6xl mb-2">Alec Petit-Siejak</h1>
             <h2 class="text-xl">Étudiant en informatique</h2>
         </div>
 
-        <div class="h-20"></div>
+        <div class="flex flex-col gap-3 sm:flex-row items-center">
+            <form action="#about-section">
+                <input class="text-text-dark dark:text-text border border-primary outline-none bg-primary rounded-lg text-lg px-5 py-2.5 text-center me-2 mb-2" type="submit" value="A propos de moi" />
+            </form>
+            <input class="text-primary hover:text-text-dark dark:hover:text-text border border-primary hover:bg-primary outline-none rounded-lg text-lg px-5 py-2.5 text-center me-2 mb-2" type="button" value="Télécharger mon CV" />
+        </div>
+
     </section>
 
-<!--    <div class="flex justify-center">-->
-<!--        <div class="bg-primary w-3xs rounded-xl">-->
-<!--            &lt;!&ndash;            <img src={profileImage} alt="Profile Image" />&ndash;&gt;-->
-<!--        </div>-->
-<!--    </div>-->
-
     <!--About Me-->
-    <div class="text-2xl my-10">
-        <h1>À propos de moi</h1>
-    </div>
+    <section id="about-section" class="flex flex-col sm:flex-row items-center my-10">
 
-    <!--Projects-->
-    <div class="text-2xl my-10">
-        <h1>Mes projets</h1>
-    </div>
+        <div class="bg-primary w-1/3">
+            <img src={profileImage} alt="Profile Image" />
+        </div>
+
+        <div class="w-2/3 mx-10 my-5">
+            <h1 class="text-2xl mb-5 text">A propos de moi</h1>
+            <p class="leading-7">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc id congue eros.
+                Nam accumsan rutrum ligula, id bibendum risus feugiat sit amet.
+                Nunc venenatis dignissim gravida. Cras lacinia, mi sed sollicitudin congue, lorem nibh lobortis elit, nec mattis tellus lacus semper lectus.
+                Duis tristique ipsum non erat venenatis, eget dictum nulla lobortis.
+            </p>
+        </div>
+
+    </section>
 
     <!--Skills-->
     <div class="text-2xl my-10">
         <h1>Mes compétences</h1>
+    </div>
+
+    <!--Portfolio-->
+    <div class="text-2xl my-10">
+        <h1>Mon portfolio</h1>
     </div>
 
     <!--Contact Me-->
