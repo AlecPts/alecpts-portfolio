@@ -1,6 +1,6 @@
 <script>
 	import { onMount } from 'svelte';
-	import skills from "$lib/assets/json/skills.json"
+	import skills from "$lib/json/skills.json"
 
 	let gradient;
 	let skillsSection;
@@ -17,8 +17,6 @@
 			const progress = Math.min(1, Math.max(0, (scrollY - sectionTop) / sectionHeight));
 			const yStart = progress * 1147;
 			const yEnd = yStart + 50;
-
-			console.log(progress);
 
 			if (gradient) {
 				gradient.setAttribute('y1', yStart.toFixed(2));
