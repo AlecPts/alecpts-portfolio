@@ -16,5 +16,4 @@ jobs:
         with:
           node-version: 18.x
       - run: npm ci
-      - run: npx @inlang/paraglide-js sync
       - run: npm run build
