@@ -19,6 +19,6 @@ jobs:
           port: 22
           script: |
             cd /var/www/alecpts-portfolio
-            git pull origin master
+            git pull origin main
             npm ci
             npm run build
