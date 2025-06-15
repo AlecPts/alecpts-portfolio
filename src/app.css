@@ -1,1 +1,39 @@
 @import 'tailwindcss';
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+@plugin 'tailwindcss-motion';
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+    /* Colors */
+    --color-white: #f0f3f4;
+    --color-blue: #0E1F31;
+    --color-yellow: #EEBD00;
+
+    --border-white: #f0f3f4;
+
+    /* Fonts */
+    --font-primary: "Inter", sans-serif;
+
+    /* Animations */
+    --animate-slide-up-infinite: slide-up 20s linear infinite;
+    --animate-slide-down-infinite: slide-down 20s linear infinite;
+
+    @keyframes slide-up {
+        0% { transform: translateY(0); }
+        100% { transform: translateY(-100%); }
+    }
+    @keyframes slide-down {
+        0% { transform: translateY(-100%); }
+        100% { transform: translateY(0); }
+    }
+}
+
+.section {
+    @apply px-5 py-30;
+}
+.section-title {
+    @apply text-xl text-center text-gray-500 mb-25
+}
+

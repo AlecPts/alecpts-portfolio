@@ -1,0 +1,13 @@
+<svg width="700" height="700" version="1.1" viewBox="0 0 28 28" xmlns="http://www.w3.org/2000/svg">
+ <circle cx="14" cy="14" r="14" fill="#1794d4"/>
+ <path d="m16 5h-2v2h2z" fill="#ffffff"/>
+ <path d="m8 8h2v2h-2z" fill="#ffffff"/>
+ <path d="m4.0016 14.941c.17089 2.9013 1.8987 7.0586 7.9984 7.0586 6.8 0 9.8333-5 10.5-7.5.8333 0 2.7-.5 3.5-2.5-.5-.5-2.5-.5-3.5 0 0-.8-.5-2.5-1.5-3-.6667.6667-1.7 2.4-.5 4-.5 1-1.8333 1-2.5 1h-13.057c-.52948 0-.97249.4128-.94135.9414z" fill="#ffffff"/>
+ <path d="m7 11h-2v2h2z" fill="#ffffff"/>
+ <path d="m8 11h2v2h-2z" fill="#ffffff"/>
+ <path d="m13 11h-2v2h2z" fill="#ffffff"/>
+ <path d="m14 11h2v2h-2z" fill="#ffffff"/>
+ <path d="m19 11h-2v2h2z" fill="#ffffff"/>
+ <path d="m13 8h-2v2h2z" fill="#ffffff"/>
+ <path d="m14 8h2v2h-2z" fill="#ffffff"/>
+</svg>
