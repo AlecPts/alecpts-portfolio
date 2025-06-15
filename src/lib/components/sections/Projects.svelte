@@ -1,6 +1,6 @@
 <script>
-	import projects from "$lib/assets/json/projects.json"
-	import skills from "$lib/assets/json/skills.json"
+	import projects from "$lib/json/projects.json"
+	import skills from "$lib/json/skills.json"
 
 	const allTechnologies = skills.flatMap(skill => skill.technologies);
 	function findTechByName(name) {

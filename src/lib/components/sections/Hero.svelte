@@ -29,7 +29,7 @@
 </script>
 
 <section
-	bind:this={vantaRef}
+	bind:this={vantaRef} id="hero"
 	class="section relative flex flex-col items-center justify-center min-h-screen w-full mx-auto text-white"
 >
 	<div class="flex flex-col items-center text-center pt-10">
@@ -45,7 +45,7 @@
 			</form>
 
 			<a
-				href="/src/lib/assets/images/cv-alec-petit-siejak-2025.pdf"
+				href="/images/cv-alec-petit-siejak-2025.pdf"
 				download="cv-alec-petit-siejak-2025.pdf"
 				class="download-button group flex items-center text-md font-bold text-white border border-white outline-none rounded-full px-5 py-3 text-center gap-3"
 			>

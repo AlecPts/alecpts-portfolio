@@ -3,7 +3,7 @@
 		<h2 class="section-title">A PROPOS DE MOI</h2>
 		<div class="flex flex-col lg:flex-row justify-center items-center lg:items-stretch w-full gap-16">
 			<img
-				alt="Alec Petit-Siejak" src="/src/lib/assets/images/alec-petit-siejak-profile-picture.png"
+				alt="Alec Petit-Siejak" src="/images/alec-petit-siejak-profile-picture.png"
 				class="max-w-70 lg:w-1/3 shadow-xl drop-shadow-xl object-cover
 							-motion-translate-y-loop-[15px] motion-duration-[2s] motion-ease-in-out-quad"
 			/>

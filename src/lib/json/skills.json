@@ -1,0 +1,109 @@
+[
+  {
+    "category": "Front-end",
+    "technologies": [
+      {
+        "name": "HTML",
+        "image": "/logos/html-logo.svg"
+      },
+      {
+        "name": "CSS",
+        "image": "/logos/css-logo.svg"
+      },
+      {
+        "name": "Javascript",
+        "image": "/logos/javascript-logo.svg"
+      },
+      {
+        "name": "Typescript",
+        "image": "/logos/typescript-logo.svg"
+      },
+      {
+        "name": "Svelte",
+        "image": "/logos/svelte-logo.svg"
+      },
+      {
+        "name": "Vue.js",
+        "image": "/logos/vuejs-logo.svg"
+      },
+      {
+        "name": "Tailwind",
+        "image": "/logos/tailwind-logo.svg"
+      },
+      {
+        "name": "Vite",
+        "image": "/logos/vite-logo.svg"
+      },
+      {
+        "name": "Blazor",
+        "image": "/logos/blazor-logo.svg"
+      }
+    ]
+  },
+  {
+    "category": "Back-end",
+    "technologies": [
+      {
+        "name": "PHP",
+        "image": "/logos/php-logo.svg"
+      },
+      {
+        "name": "Symfony",
+        "image": "/logos/symfony-logo.svg"
+      },
+      {
+        "name": "Python",
+        "image": "/logos/python-logo.svg"
+      },
+      {
+        "name": "Node.js",
+        "image": "/logos/nodejs-logo.svg"
+      },
+      {
+        "name": "Java",
+        "image": "/logos/java-logo.svg"
+      },
+      {
+        "name": "Kotlin",
+        "image": "/logos/kotlin-logo.svg"
+      },
+      {
+        "name": "C#",
+        "image": "/logos/csharp-logo.svg"
+      },
+      {
+        "name": ".NET",
+        "image": "/logos/dotnet-logo.svg"
+      },
+      {
+        "name": "Swagger",
+        "image": "/logos/swagger-logo.svg"
+      }
+    ]
+  },
+  {
+    "category": "Bases de données & Outils",
+    "technologies": [
+      {
+        "name": "MySQL",
+        "image": "/logos/mysql-logo.svg"
+      },
+      {
+        "name": "PostgreSQL",
+        "image": "/logos/postgresql-logo.svg"
+      },
+      {
+        "name": "MongoDB",
+        "image": "/logos/mongodb-logo.svg"
+      },
+      {
+        "name": "Git",
+        "image": "/logos/git-logo.svg"
+      },
+      {
+        "name": "Docker",
+        "image": "/logos/docker-logo.svg"
+      }
+    ]
+  }
+]
