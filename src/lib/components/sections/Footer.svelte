@@ -10,7 +10,7 @@
 				alecpetitsiejak@gmail.com
 			</a>
 			<a
-				href="#"
+				href="/"
 				class="text-xl lg:text-2xl text-white border-1 border-white outline-none rounded-full px-10 py-6"
 			>
 				+33 6 95 57 80 XX
