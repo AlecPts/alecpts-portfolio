@@ -1,0 +1,15 @@
+<svg width="700" height="700" version="1.1" viewBox="0 0 28 28" xmlns="http://www.w3.org/2000/svg">
+ <defs>
+  <linearGradient id="a" x1="73.714" x2="105.45" y1="910.23" y2="878.13" gradientTransform="matrix(.893 0 0 .893 -66.139 -784.56)" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#0296d8" offset="0"/>
+   <stop stop-color="#8371d9" offset="1"/>
+  </linearGradient>
+  <linearGradient id="b" x1="69.813" x2="102.28" y1="905.23" y2="875.74" gradientTransform="matrix(.893 0 0 .893 -66.139 -784.56)" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#cb55c0" offset="0"/>
+   <stop stop-color="#f28e0e" offset="1"/>
+  </linearGradient>
+ </defs>
+ <title>file_type_kotlin</title>
+ <path d="m0 0v28h28v-.047l-6.95-7-6.95-7.007 6.95-7.012 6.888-6.934z" style="fill:url(#a)"/>
+ <path d="m14.318 0-14.318 14.318v13.682h.124l14.008-14.008-.031-.031 6.949-7.011 6.888-6.95z" style="fill:url(#b)"/>
+</svg>

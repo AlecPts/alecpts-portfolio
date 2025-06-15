@@ -1,0 +1,37 @@
+[
+  {
+    "title": "Portfolio",
+    "image": "src/lib/assets/images/projects/alecpts-portfolio-hero-view.png",
+    "details": "Ce portfolio est une application web développée en Svelte et TailwindCSS, dans le cadre de la soutenance de mon stage de deuxième année. Il met en valeur mes projets et mes compétences ainsi que mon identité professionnelle à travers une interface dynamique, responsive et moderne.",
+    "description": "Projets et compétences",
+    "techs": ["HTML", "CSS", "Javascript", "Svelte", "Tailwind", "Node.js", "Git"]
+  },
+  {
+    "title": "SmartDesk",
+    "image": "src/lib/assets/images/projects/smartdesk-main-view.png",
+    "details": "SmartDesk est une application web développée dans le cadre d'un projet universitaire visant à concevoir un outil complet de gestion personnelle. Réalisé en Svelte avec TailwindCSS, ce projet avait pour objectif de centraliser des outils du quotidien (calendrier, notes, tâches, musique) dans une interface moderne et responsive.",
+    "description": "Productivité personnelle",
+    "techs": ["HTML", "CSS", "Javascript", "Svelte", "Tailwind", "Node.js", "MySQL", "Git"]
+  },
+  {
+    "title": "PanierVIP",
+    "image": "src/lib/assets/images/projects/paniervip-main-view.png",
+    "details": "PanierVIP a été conçu dans le cadre d'un projet universitaire axée sur le développement d'une application web avec back-end en PHP/Symfony. L'objectif était de créer une plateforme collaborative pour gérer des listes de courses partagées.",
+    "description": "Gestion de paniers de courses",
+    "techs": ["PHP", "Symfony", "HTML", "CSS", "MySQL", "Git"]
+  },
+  {
+    "title": "Projet Crash",
+    "image": "src/lib/assets/images/projects/projet-crash-main-view.png",
+    "details": "Développé en Java Swing dans un projet universitaire orientée algorithmique et modélisation, ce projet simule l’espace aérien français avec un système de création et de visualisation de graphes. Il permet de modéliser les trajectoires d’avions et de détecter les risques de collisions.",
+    "description": "Gestion du trafic aérien",
+    "techs": ["Java", "Git"]
+  },
+  {
+    "title": "Lootbox Hunter",
+    "image": "src/lib/assets/images/projects/lootbox-hunter-main-view.png",
+    "details": "Lootbox Hunter est une application mobile Android réalisée en Kotlin dans le cadre d'un projet universitaire centrée sur le développement mobile. L’application simule l’ouverture de lootboxes de jeux vidéo, en utilisant une API pour récupérer les données et Firebase pour la gestion des utilisateurs et du stockage.",
+    "description": "Ouverture de caisses virtuelles",
+    "techs": ["Kotlin", "Swagger", "Git"]
+  }
+]
